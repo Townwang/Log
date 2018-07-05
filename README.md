@@ -1,21 +1,27 @@
 # Log
-[![Release](https://jitpack.io/v/com.townwang/Repo.svg)]
-(https://jitpack.io/#com.townwang/Repo)
+[![](https://jitpack.io/v/townwang/Log.svg)](https://jitpack.io/#townwang/Log)
 
-
-[![Release](https://jitpack.io/v/org.bitbucket.User/Repo.svg)]
-(https://jitpack.io/#org.bitbucket.User/Repo)
 > 定制个Log,自带的Json不会格式化 ,而且不能超过4000 很尴尬,很难受!
 
 ## 使用方法
-
-第一步：build.gradle
+第一步：build.gradle(Project)
+```java
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+第二步：build.gradle(Module.app)
 
 ```java
-
+	dependencies {
+	   implementation 'com.github.townwang:Log:v1.0.0'
+	}
 ```
 
-第二步: 设置配置(最好在Application中)
+第三步: 设置配置(最好在Application中)
 ```java
        //初始化设置过滤关键词以及是否打印
         Log.setConfig("Demo",true);
