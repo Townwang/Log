@@ -1,5 +1,5 @@
 # Log
-[![](https://jitpack.io/v/townwang/Log.svg)](https://jitpack.io/#townwang/Log)
+[![](https://jitpack.io/v/com.townwang/Log.svg)](https://jitpack.io/#com.townwang/Log)
 
 > 定制个Log,自带的Json不会格式化 ,而且不能超过4000 很尴尬,很难受!
 
@@ -17,7 +17,7 @@ allprojects {
 
 ```java
 	dependencies {
-	   implementation 'com.github.townwang:Log:v1.0.0'
+    implementation 'com.townwang:Log:v1.0.0'
 	}
 ```
 
