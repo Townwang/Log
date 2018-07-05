@@ -1,5 +1,10 @@
 # Log
+[![Release](https://jitpack.io/v/com.townwang/Repo.svg)]
+(https://jitpack.io/#com.townwang/Repo)
 
+
+[![Release](https://jitpack.io/v/org.bitbucket.User/Repo.svg)]
+(https://jitpack.io/#org.bitbucket.User/Repo)
 > 定制个Log,自带的Json不会格式化 ,而且不能超过4000 很尴尬,很难受!
 
 ## 使用方法
