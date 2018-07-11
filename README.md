@@ -11,7 +11,7 @@ build.gradle(Module.app)
 
 ```java
 	dependencies {
-    implementation 'com.townwang:Log:v1.0.0'
+    implementation 'com.townwang:logutils:v1.0.0'
 	}
 ```
 
