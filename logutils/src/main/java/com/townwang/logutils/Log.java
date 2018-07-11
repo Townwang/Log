@@ -159,13 +159,13 @@ public class Log {
         }
         josnBuilder.setLength(0);
         appendSb("标签==>" + TagName, false);
-        appendSb("____________________________________________________________________", false);
+        appendSb("****************************************************************************************", false);
         appendSb("\n请求地址==>" + url, false);
-        appendSb("____________________________________________________________________", false);
+        appendSb("****************************************************************************************", false);
         appendSb("{", false);
         prinfrmatJson(TagName, response);
         appendSb("}", false);
-        appendSb("_____________________________" + " 耗时" + (System.currentTimeMillis() - currentTime) + "毫秒_____________________________", false);
+        appendSb("****************************" + " 耗时" + (System.currentTimeMillis() - currentTime) + "毫秒****************************", false);
         if (isdelCb) {
             josnBuilder.delete(josnBuilder.indexOf("{"), josnBuilder.indexOf("["));
             josnBuilder.delete(josnBuilder.lastIndexOf(DELDATE), josnBuilder.lastIndexOf(DELDATE) + SUBSTRINGLENG);
