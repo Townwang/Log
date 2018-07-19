@@ -9,24 +9,24 @@ Breaking android log word limits and automatically formatting json.
 ## 使用方法
 build.gradle(Module.app)
 
-```java
-	dependencies {
-    implementation 'com.townwang:logutils:v1.0.0'
-	}
+```
+dependencies {
+ mplementation 'com.townwang:logutils:1.0.0'
+}
 ```
 
 ## 设置配置(最好在Application中)
-```java
-       //初始化设置过滤关键词以及是否打印
-        Log.setConfig("Demo",true);
+```
+//初始化设置过滤关键词以及是否打印
+Log.setConfig("Demo",true);
 ```
 ## 开始使用吧：
-```java
-    Log.v ("皮一下,很开心");
-    Log.d ("这很代码");
-    Log.i ("重要的在下面");
-    Log.e ("出了个错,别介意");
-    Log.json ("打印JSON","这里的Json字符串");
+```
+Log.v ("皮一下,很开心");
+Log.d ("这很代码");
+Log.i ("重要的在下面");
+Log.e ("出了个错,别介意");
+Log.json ("打印JSON","这里的Json字符串");
 ```
 ## 看看Json效果
 ![微信截图_20180705173344.png](https://i.loli.net/2018/07/05/5b3de8221f686.png)
